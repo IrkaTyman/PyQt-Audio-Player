@@ -1,0 +1,74 @@
+QPushButton#roundButton {
+    background-color: #52717184;  
+    border-radius: 25px; 
+    min-width: 50px; 
+    max-width: 50px; 
+    min-height: 50px; 
+    max-height: 50px;
+}
+QPushButton#roundButton:hover {
+    background-color: #38717184;
+}
+QPushButton#roundButton:pressed {
+    background-color: #8a717184;
+}
+QPushButton#roundButton:disabled {
+    background-color: #21717184;
+}
+
+QSlider {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+QSlider::groove:horizontal {
+    border: #2F2F37;
+    height: 5px;
+    background: #81242424; 
+    margin: 1px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #dadada;
+    border: 5px solid #ff46464d;
+    width: 15px;
+    margin: -10px 0;
+    border-radius: 12px;
+}
+
+QSlider::add-page:horizontal {
+    background: #b0b0b0;
+    height: 5px;
+    margin: 1px 0;
+}
+
+QSlider::handle:horizontal:disabled {
+    background: #dadada;
+}
+
+QLabel {
+    background-color: transparent;
+    color: #ff242424;
+    padding: 5px;
+}
+
+QLabel#titleLabel {
+    background-color: transparent;
+    color: #E9E9EC;
+    padding: 5px;
+}
+
+QWidget#NotificationWidget { 
+    color: #ff242424;
+}
+
+QWidget#ScrollArea {
+    background-color: #e1e1e1;
+}
+
+QPushButton#titleButton {
+    background-color: transparent;
+} 
+QPushButton#titleButton:hover { 
+    background-color: #7ee1e1e1; 
+}
