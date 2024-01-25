@@ -4,3 +4,4 @@
 ## Стек
 1. Python
 2. PyQt
+3. sqlite3
